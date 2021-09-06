@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    
+    <title>Registro de Libro</title>
+</head>
+<body class="container">
+    <header>
+        <h1 class="text-center m-5">Registros de Libros</h1>
+    </header>
+    <div class="d-flex justify-content-center align-items-center">
+        <form action="#" class="w-50 shadow-lg p-3 mb-5 bg-white rounded p-5">
+            <labe>ISBN:</labe>
+            <input class="form-control" type="text" placeholder="ISBN" name="" id="isbn"><br>
+            <label>Titulo:</label>
+            <input class="form-control" type="text" name="" placeholder="Titulo" id="txttitulo"> <br>
+            <label>Nombre del Autor:</label>
+            <input class="form-control" type="text" name="" placeholder="Nombre autor" id="txtnombre"> <br>
+            <label>Apellido del Autor:</label>
+            <input class="form-control" type="text" name="" placeholder="Apellido Autor" id="txtapellido"> <br>
+            <label>Categoria Libro:</label>
+            <input class="form-control" type="text" name="" placeholder="Categoria" id="txtcategoria"> <br>
+            <label>Precio del libro:</label>
+            <input class="form-control" type="text" name="" placeholder="Precio" id="txtprecio"><br>
+
+            <label>Seleccione la Imagen:</label>
+            <br>
+
+            <input type="file" id="seleccionArchivos" accept="image/*" name="seleccionArchivos">
+            <br>
+            <br>
+            <input class="btn btn-primary" type="button" value="Guardar" id="guardarLibro"><br>
+
+        </form>
+    </div>
+    <div class="container mb-5">
+        <div class="row" id="contenedorCartas">
+
+        </div>
+    </div>
+  
+</body>
+<script src="info.js"></script>
+</html>
